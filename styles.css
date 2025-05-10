@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8e8ee;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+}
+
+h1 {
+    color: #6b4f6b;
+    margin-bottom: 1.5rem;
+}
+
+.timer-settings {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.setting-group {
+    margin-bottom: 0.5rem;
+}
+
+.setting-group label {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #6b4f6b;
+}
+
+.setting-group input {
+    width: 80px;
+    padding: 0.5rem;
+    border: 1px solid #e8d3e8;
+    border-radius: 0.25rem;
+    text-align: center;
+    color: #6b4f6b;
+}
+
+.timer {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #6b4f6b;
+    margin-bottom: 1rem;
+}
+
+.timer-mode {
+    font-size: 1.2rem;
+    color: #6b4f6b;
+    margin-bottom: 1.5rem;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#start {
+    background-color: #a8e6cf;
+    color: #2d5a4f;
+}
+
+#start:hover {
+    background-color: #88d4b3;
+}
+
+#pause {
+    background-color: #ffd3b6;
+    color: #8b5a2b;
+}
+
+#pause:hover {
+    background-color: #ffb088;
+}
+
+#stop {
+    background-color: #ffaaa5;
+    color: #8b3a3a;
+}
+
+#stop:hover {
+    background-color: #ff8a85;
+}
+
+#skip-break {
+    background-color: #dcedc1;
+    color: #556b2f;
+}
+
+#skip-break:hover {
+    background-color: #c5e1a5;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Style for break mode */
+.break-mode {
+    background-color: #e8f5e9;
+}
+
+.break-mode .timer {
+    color: #2e7d32;
+}
+
+/* Style for focus mode */
+.focus-mode {
+    background-color: #fff;
+}
+
+.focus-mode .timer {
+    color: #6b4f6b;
+}
+
+.DS_Store
+node_modules/ 
