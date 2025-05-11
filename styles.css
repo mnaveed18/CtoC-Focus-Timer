@@ -13,34 +13,6 @@ body {
     background-color: #234137; /* deep green */
 }
 
-body::before, body::after {
-    content: '';
-    position: fixed;
-    z-index: 0;
-    pointer-events: none;
-    opacity: 0.45;
-    background-repeat: no-repeat;
-    background-size: 420px 240px;
-    /* border: 2px solid red; */ /* Uncomment for debugging */
-}
-
-body::before {
-    top: 30px;
-    left: 30px;
-    width: 420px;
-    height: 240px;
-    background-image: url('https://cdn.pixabay.com/photo/2017/01/31/13/14/leaf-2028271_1280.png');
-}
-
-body::after {
-    bottom: 30px;
-    right: 30px;
-    width: 420px;
-    height: 240px;
-    background-image: url('https://cdn.pixabay.com/photo/2017/01/31/13/14/leaf-2028271_1280.png');
-    transform: scaleX(-1) scaleY(-1);
-}
-
 .container, .modal, .timer-notification {
     position: relative;
     z-index: 1;
